@@ -48,7 +48,6 @@ table {
 }
 
 /* MAKING THINGS VISIBLE */
-
 body {
 	background-color: LightGray;
 }
@@ -56,14 +55,15 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
-
 /* END OF VISIBILITY */
 
+
+
 /*Top Navigation Section*/
-.top-navigation {
+.top-nav {
 	background-color: #fff;
 }
-.top-navigation > .content {
+.top-nav > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
