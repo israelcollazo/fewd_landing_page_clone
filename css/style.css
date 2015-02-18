@@ -74,7 +74,7 @@ html {
 }
 
 .top-nav > .content > .links > .active {
-	color: #4C5058;
+	color: #4c5058;
 	font-weight: 500;
 }
 
@@ -100,12 +100,12 @@ li {
 }
 
 a {
-	color: #4C5058;
+	color: #4c5058;
 	text-decoration: none;
 }
 
 a:hover {
-	color: green;
+	color: #333;
 }
 
 
