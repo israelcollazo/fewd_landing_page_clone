@@ -57,20 +57,55 @@ div {
 }
 /* END OF VISIBILITY */
 
-
+html {
+	-webkit-font-smoothing: antialiased;
+}
 
 /*Top Navigation Section*/
 .top-nav {
 	background-color: #fff;
 }
+
 .top-nav > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-nav > .content > .links > .active {
+	color: #4C5058;
+	font-weight: 500;
 }
 
 .logo {
-	margin: 14px;
+	margin-top: 14px;
+}
+
+.links {
+	float: right;
+	margin-top: 25px;
+}
+
+.links > li {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	display: inline-block;
+}
+
+li {
+	margin-left: 40px;
+}
+
+a {
+	color: #4C5058;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
 }
 
 
