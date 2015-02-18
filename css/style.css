@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+/*END OF RESET*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* MAKING THINGS VISIBLE */
 
 div {
@@ -59,6 +65,7 @@ html {
 }
 
 /*Top Navigation Section*/
+
 .content {
 	padding: 0 15px;
 }
@@ -113,7 +120,36 @@ a:hover {
 	background-size: cover;
 	background-repeat: none;
 	padding: 15em 0;
+	text-align: center;
 }
+
+.masthead-heading {
+	font-size: 3.125em;
+	color: white;
+	font-weight: 300;
+}
+
+.masthead-intro {
+	font-size: 1.7em;
+	color: white;
+	font-weight: 300;
+	margin-top: 0.7em
+}
+
+.learn-more-btn {
+	font-size: 1.2em;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
+	border-style: none;
+	border-radius: 4px;
+	width: 8.5em;
+	padding: 0.7em;
+	text-shadow: none;
+	margin-top: 1em;
+
+}
+
 
 
 
