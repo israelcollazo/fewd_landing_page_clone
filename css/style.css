@@ -62,6 +62,10 @@ html {
 }
 
 /*Top Navigation Section*/
+.content {
+	padding: 0 15px;
+}
+
 .top-nav {
 	background-color: #fff;
 }
@@ -70,7 +74,6 @@ html {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	padding: 0px 15px;
 }
 
 .top-nav > .content > .links > .active {
