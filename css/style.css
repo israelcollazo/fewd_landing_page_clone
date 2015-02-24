@@ -150,16 +150,22 @@ h3 {
 	padding: 16px 26px;
 	text-shadow: none;
 	display: block;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 button:hover {
 	background-color: #D9400A;
 	text-decoration: none;
-	cursor: pointer;	
+	cursor: pointer;		
 }
 
-
+.cases h2 {
+	font-family: Roboto, sans-serif;
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
+	margin: 1.625rem 0 3.125rem;
+}
 
 
 
