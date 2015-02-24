@@ -53,12 +53,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-/* MAKING THINGS VISIBLE */
+/* MAKING THINGS VISIBLE
 
 div {
 	border: 1px solid Chocolate;
 }
-/* END OF VISIBILITY */
+END OF VISIBILITY */
 
 html {
 	-webkit-font-smoothing: antialiased;
@@ -94,7 +94,7 @@ html {
 
 .links > li {
 	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
+	font-size: 1rem; 
 	color: #838994; 
 	letter-spacing: 0.03em;
 	display: inline-block;
@@ -128,16 +128,35 @@ a:hover {
 	font-weight: 300;
 }
 
-.content h1, .content h3 {
-	margin-top: 50%;
-}
-
-h1 {
+.introduction h1 {
 	font-size: 3.125rem;
+	margin-top: 17.5rem;
 }
 
 h3 {
 	font-size: 1.563rem;
+	margin-top: 1.25rem;
+	margin-bottom: 2rem;
+}
+
+.big-btn {
+	width: 10rem;
+	background-color: #f15a29;
+	font-family: Roboto, sans-serif;
+	font-size: 1rem;
+	color: #fff;
+	border-radius: 3px;
+	border-style: none;
+	padding: 16px 26px;
+	text-shadow: none;
+	display: block;
+	margin: 0 auto;	
+}
+
+button:hover {
+	background-color: #D9400A;
+	text-decoration: none;
+	cursor: pointer;	
 }
 
 
