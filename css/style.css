@@ -70,12 +70,14 @@ html {
 	padding: 0 15px;
 	margin: 0 auto;
 	width: 970px;
-
 }
 
 .top-nav {
 	background-color: #fff;
 	height: 70px;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-nav > .content > .links > .active {
